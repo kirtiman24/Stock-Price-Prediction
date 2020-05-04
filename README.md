@@ -1,2 +1,13 @@
 # Stock-Price-Prediction
-There are a lot of complicated financial indicators and also the fluctuation of the stock market is highly violent. However, as the technology is getting advanced, the opportunity to gain a steady fortune from the stock market is increased and it also helps experts to find out the most informative indicators to make a better prediction. The prediction of the market value is of great importance to help in maximizing the profit of stock option purchase while keeping the risk low. Recurrent neural networks (RNN) have proved one of the most powerful models for processing sequential data. Long Short-Term memory is one of the most successful RNNs architectures. LSTM introduces the memory cell, a unit of computation that replaces traditional artificial neurons in the hidden layer of the network. With these memory cells, networks are able to effectively associate memories and input remote in time, hence suit to grasp the structure of data dynamically over time with high prediction capacity.
+
+LSTMs are very powerful in sequence prediction problems because they’re able to store past information. This is important in our case because the previous price of a stock is crucial in predicting its future price.
+
+Data is collected from the Bombay Stock Exchange(BSE) official site.
+
+Data consists of the top 100 performing stock indexes from 3 April 2017 to 29 February 2020.
+
+I have used the data for previous 3 years of the stock indexes as the training data and the testing data consists of stock indexes from 1 March 2020 till 4 May 2020.
+
+Timestep of 60 has been used while predicting the stock indexes which means that it has been assumed that the performance of a stock on a particular day depends on the performance of the stock over the previous 60 days.
+
+Data normalisation and preprocessing has been performed acordingly for feeding the data to the LSTM neural network.
