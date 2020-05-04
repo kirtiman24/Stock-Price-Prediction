@@ -10,4 +10,4 @@ LSTMs are very powerful in sequence prediction problems because they’re able t
 
 4) Timestep of 60 has been used while predicting the stock indexes which means that it has been assumed that the performance of a stock on a particular day depends on the performance of the stock over the previous 60 days.
 
-5) Data normalisation and preprocessing has been performed acordingly for feeding the data to the LSTM neural network.
+5) Data normalisation and preprocessing has been performed acordingly for feeding the data to the LSTM neural network with proper dimensions.
